@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+h1{
+    text-align: center; 
+}
+form {
+    text-align: left;
+    max-width: 400px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+label {
+    label {
+        flex: 0 0 40%; /* Adjust the width of the label as needed */
+    }
+}
+
+input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+
+input[type="submit"], input[type="reset"] {
+    background-color: aqua;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
